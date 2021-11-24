@@ -32,7 +32,7 @@ const taskSlice = createSlice({
 });
 
 // Selector
-export const selectTaskSlice = (state) => state.taskReducer;
+export const selectTaskSlice = (state) => state.task;
 
 // Actions
 export const { addTask, toggleComplete, removeTask } = taskSlice.actions;
