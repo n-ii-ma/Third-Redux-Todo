@@ -9,9 +9,9 @@ const preloadedState = localStorage.getItem("ReduxTodo")
 
 const store = configureStore({
   reducer: {
-    remainingTasksReducer,
-    inputReducer,
-    taskReducer,
+    remainingTasks: remainingTasksReducer,
+    input: inputReducer,
+    task: taskReducer,
   },
   preloadedState,
 });
