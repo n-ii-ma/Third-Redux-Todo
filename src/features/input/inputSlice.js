@@ -14,7 +14,7 @@ const inputSlice = createSlice({
 });
 
 // Selector
-export const selectInputSlice = (state) => state.inputReducer;
+export const selectInputSlice = (state) => state.input;
 
 // Actions
 export const { setInput, clearInput } = inputSlice.actions;
